@@ -1,0 +1,32 @@
+{
+    "name": "fcc-urlshortener-jor",
+    "version": "0.0.1",
+    "description": "A URL shortening microservice created with Express fulfilling the user stories of the Free Code Camp back end project",
+    "main": "app.js",
+    "engines": {
+        "node": "^6"
+    },
+    "scripts": {
+        "start": "nodemon app.js"
+    },
+    "dependencies": {
+        "express": "^4.15.4",
+        "mongoose": "^4.11.14",
+        "pug": "^2.0.0-rc.3",
+        "randomstring": "^1.1.5",
+        "validator": "^9.0.0"
+    },
+    "devDependencies": {
+        "eslint": "^4.8.0",
+        "nodemon": "^1.11.0"
+    },
+    "repository": {
+        "url": "https://glitch.com/edit/#!/fcc-urlshortener-jor"
+    },
+    "license": "MIT",
+    "keywords": [
+        "node",
+        "glitch",
+        "express"
+    ]
+}
