@@ -1,32 +1,31 @@
 {
-    "name": "fcc-urlshortener-jor",
-    "version": "0.0.1",
-    "description": "A URL shortening microservice created with Express fulfilling the user stories of the Free Code Camp back end project",
-    "main": "app.js",
-    "engines": {
-        "node": "^6"
-    },
-    "scripts": {
-        "start": "nodemon app.js"
-    },
-    "dependencies": {
-        "express": "^4.15.4",
-        "mongoose": "^4.11.14",
-        "pug": "^2.0.0-rc.3",
-        "randomstring": "^1.1.5",
-        "validator": "^9.0.0"
-    },
-    "devDependencies": {
-        "eslint": "^4.8.0",
-        "nodemon": "^1.11.0"
-    },
-    "repository": {
-        "url": "https://glitch.com/edit/#!/fcc-urlshortener-jor"
-    },
-    "license": "MIT",
-    "keywords": [
-        "node",
-        "glitch",
-        "express"
-    ]
+  "name": "fcc-imagesearch-jor",
+  "version": "0.0.1",
+  "description":
+    "An image search abstraction microservice created with Express fulfilling the user stories of the Free Code Camp back end project",
+  "repository": {
+    "type": "git",
+    "url": "https://glitch.com/edit/#!/fcc-imagesearch-jor"
+  },
+  "homepage": "https://fcc-imagesearch-jor.glitch.me",
+  "main": "app.js",
+  "engines": {
+    "node": "^6"
+  },
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "express": "^4.16.2",
+    "isomorphic-fetch": "^2.2.1",
+    "mongoose": "^5.0.1",
+    "pug": "^2.0.0-rc.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.16.0",
+    "node-sass": "^4.7.2",
+    "nodemon": "^1.14.11"
+  },
+  "license": "MIT",
+  "keywords": ["node", "glitch", "express"]
 }
