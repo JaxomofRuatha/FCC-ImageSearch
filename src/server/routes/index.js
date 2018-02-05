@@ -37,7 +37,7 @@ router.get('/search', (req, res) => {
 
       QueryRecord.create({
         term: query,
-        time: new Date(),
+        time: Date.now(),
         results: data.totalHits
       }).catch(err => {
         throw err;
@@ -47,6 +47,16 @@ router.get('/search', (req, res) => {
     })
     .catch(err => {
       console.error(err);
+    });
+});
+
+router.get('/latest', (req, res) => {
+  QueryRecord.find({})
+    .limit(20)
+    .select('term time results -_id')
+    .exec((err, records) => {
+      if (err) res.send(err);
+      res.json(records);
     });
 });
 

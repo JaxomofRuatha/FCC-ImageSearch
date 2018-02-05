@@ -4,6 +4,10 @@ block content
     header
         h1 Image Search Abstraction Express Microservice
     main
+        form(action="/" id="query-form")
+            input(type="text" id="query-input" required)
+            input(type="submit" id="submit" value="Submit")
+        a(href="/latest") Recent Queries
     footer
     script(
         src="js/client.js"

@@ -18,7 +18,7 @@ app.set('views', path.join(__dirname, '../client/views'));
 app.set('view engine', 'pug');
 
 //Set up directory for static served files
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, '../../public')));
 
 //Set up index as router on root
 app.use('/', index);
