@@ -1,3 +1,5 @@
+const fetch = require('isomorphic-fetch');
+
 const REQUEST_TIMEOUT_MS = 30000;
 
 const _checkStatus = res => {
@@ -48,4 +50,4 @@ function apiSkeleton(url, options) {
   });
 }
 
-export default apiSkeleton;
+module.exports = apiSkeleton;

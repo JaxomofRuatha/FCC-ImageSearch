@@ -13,18 +13,24 @@
     "node": "^6"
   },
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "nodemon src/server/index.js"
   },
   "dependencies": {
     "express": "^4.16.2",
     "isomorphic-fetch": "^2.2.1",
-    "mongoose": "^5.0.1",
+    "mongoose": "^5.0.3",
     "pug": "^2.0.0-rc.4"
   },
   "devDependencies": {
-    "eslint": "^4.16.0",
+    "babel-eslint": "^8.2.1",
+    "chai": "^4.1.2",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-import": "^2.8.0",
     "node-sass": "^4.7.2",
-    "nodemon": "^1.14.11"
+    "nodemon": "^1.14.12",
+    "prettier-eslint": "^8.8.1"
   },
   "license": "MIT",
   "keywords": ["node", "glitch", "express"]
