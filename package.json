@@ -13,7 +13,11 @@
     "node": "^6"
   },
   "scripts": {
-    "start": "nodemon src/server/index.js"
+    "start": "nodemon src/server/index.js",
+    "sass":
+      "node-sass --output-style expanded --source-map true --source-map-embed true -o public/css src/client/sass/style.scss",
+    "watch:sass":
+      "nodemon -e --watch 'src/client/sass/**/*.scss' -x 'npm run sass'"
   },
   "dependencies": {
     "express": "^4.16.2",

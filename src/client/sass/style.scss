@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo');
+
+body {
+    background-color: #8FBB99;
+    font-family: 'Archivo', sans-serif;
+    text-align: center;
+}
+
+a {
+  color: #595A4A;
+}
+
+h1 {
+    color: #363635;
+}
+
+h2 {
+    color: #526060;
+}
+
+main {
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+form {
+    width: 100%;
+    padding: 1rem;
+}
+
+span, code {
+    padding: 0.5rem;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input-url {
+    width: 70%;
+}

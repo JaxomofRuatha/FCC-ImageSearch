@@ -42,7 +42,7 @@ router.get('/search', (req, res) => {
       }).catch(err => {
         throw err;
       });
-
+      console.log(data);
       res.json({ searchResults });
     })
     .catch(err => {

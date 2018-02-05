@@ -1,40 +1,44 @@
-@import url('https://fonts.googleapis.com/css?family=Archivo');
-
+@import url("https://fonts.googleapis.com/css?family=Archivo");
 body {
-    background-color: #051014;
-    color: #CDDDDD;
-    font-family: 'Archivo', sans-serif;
-    text-align: center;
+  background-color: #8FBB99;
+  font-family: 'Archivo', sans-serif;
+  text-align: center;
+}
+
+a {
+  color: #595A4A;
 }
 
 h1 {
-    color: #A599B5;
+  color: #363635;
 }
 
 h2 {
-    color: #526060;
+  color: #526060;
 }
 
 main {
-    max-width: 75%;
-    margin: 0 auto;
+  max-width: 75%;
+  margin: 0 auto;
 }
 
 form {
-    width: 50vw;
-    padding: 1rem;
+  width: 100%;
+  padding: 1rem;
 }
 
 span, code {
-    padding: 0.5rem;
+  padding: 0.5rem;
 }
 
 .main-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 #input-url {
-    width: 70%;
+  width: 70%;
 }
+
+/*# sourceMappingURL=data:application/json;base64,ewoJInZlcnNpb24iOiAzLAoJImZpbGUiOiAic3R5bGUuY3NzIiwKCSJzb3VyY2VzIjogWwoJCSIuLi8uLi9zcmMvY2xpZW50L3Nhc3Mvc3R5bGUuc2NzcyIKCV0sCgkibmFtZXMiOiBbXSwKCSJtYXBwaW5ncyI6ICJBQUFBLE9BQU8sQ0FBQyxzREFBSTtBQUVaLEFBQUEsSUFBSSxDQUFDO0VBQ0QsZ0JBQWdCLEVBQUUsT0FBTztFQUN6QixXQUFXLEVBQUUscUJBQXFCO0VBQ2xDLFVBQVUsRUFBRSxNQUFNO0NBQ3JCOztBQUVELEFBQUEsQ0FBQyxDQUFDO0VBQ0EsS0FBSyxFQUFFLE9BQU87Q0FDZjs7QUFFRCxBQUFBLEVBQUUsQ0FBQztFQUNDLEtBQUssRUFBRSxPQUFPO0NBQ2pCOztBQUVELEFBQUEsRUFBRSxDQUFDO0VBQ0MsS0FBSyxFQUFFLE9BQU87Q0FDakI7O0FBRUQsQUFBQSxJQUFJLENBQUM7RUFDRCxTQUFTLEVBQUUsR0FBRztFQUNkLE1BQU0sRUFBRSxNQUFNO0NBQ2pCOztBQUVELEFBQUEsSUFBSSxDQUFDO0VBQ0QsS0FBSyxFQUFFLElBQUk7RUFDWCxPQUFPLEVBQUUsSUFBSTtDQUNoQjs7QUFFRCxBQUFBLElBQUksRUFBRSxBQUFBLElBQUksQ0FBQztFQUNQLE9BQU8sRUFBRSxNQUFNO0NBQ2xCOztBQUVELEFBQUEsYUFBYSxDQUFDO0VBQ1YsT0FBTyxFQUFFLElBQUk7RUFDYixjQUFjLEVBQUUsTUFBTTtFQUN0QixXQUFXLEVBQUUsTUFBTTtDQUN0Qjs7QUFFRCxBQUFBLFVBQVUsQ0FBQztFQUNQLEtBQUssRUFBRSxHQUFHO0NBQ2IiCn0= */
