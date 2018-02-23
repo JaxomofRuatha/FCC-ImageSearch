@@ -8,16 +8,12 @@
     "url": "https://glitch.com/edit/#!/fcc-imagesearch-jor"
   },
   "homepage": "https://fcc-imagesearch-jor.glitch.me",
-  "main": "app.js",
+  "main": "index.js",
   "engines": {
-    "node": "^6"
+    "node": "8.9.*"
   },
   "scripts": {
-    "start": "nodemon src/server/index.js",
-    "sass":
-      "node-sass --output-style expanded --source-map true --source-map-embed true -o public/css src/client/sass/style.scss",
-    "watch:sass":
-      "nodemon -e --watch 'src/client/sass/**/*.scss' -x 'npm run sass'"
+    "start": "nodemon src/server/index.js"
   },
   "dependencies": {
     "express": "^4.16.2",
@@ -32,7 +28,7 @@
     "eslint-config-airbnb": "^16.1.0",
     "eslint-loader": "^1.9.0",
     "eslint-plugin-import": "^2.8.0",
-    "node-sass": "^4.7.2",
+    "node-sass-middleware": "^0.11.0",
     "nodemon": "^1.14.12",
     "prettier-eslint": "^8.8.1"
   },
