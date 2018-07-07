@@ -1,13 +1,21 @@
 {
-  "name": "fcc-imagesearch-jor",
-  "version": "0.0.1",
-  "description":
-    "An image search abstraction microservice created with Express fulfilling the user stories of the Free Code Camp back end project",
+  "name": "jc-imagesearch",
+  "author": {
+    "name": "John Chritton",
+    "email": "jchritton33@gmail.com",
+    "url": "https://github.com/jchritton"
+  },
+  "version": "1.0.0",
+  "description": "An image search abstraction microservice created with Express fulfilling the user stories of the Free Code Camp back end project",
+  "private": true,
+  "homepage": "https://jc-imagesearch.glitch.me/",
   "repository": {
     "type": "git",
-    "url": "https://glitch.com/edit/#!/fcc-imagesearch-jor"
+    "url": "https://github.com/jchritton/jc-imagesearch"
   },
-  "homepage": "https://fcc-imagesearch-jor.glitch.me",
+  "bugs": {
+    "url": "https://github.com/jchritton/jc-imagesearch/issues"
+  },
   "main": "index.js",
   "engines": {
     "node": "8.9.*"
@@ -16,22 +24,29 @@
     "start": "nodemon src/server/index.js"
   },
   "dependencies": {
-    "express": "^4.16.2",
+    "express": "^4.16.3",
     "isomorphic-fetch": "^2.2.1",
-    "mongoose": "^5.0.3",
-    "pug": "^2.0.0-rc.4"
+    "mongoose": "^5.2.1",
+    "pug": "^2.0.3"
   },
   "devDependencies": {
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^8.2.5",
     "chai": "^4.1.2",
-    "eslint": "^4.17.0",
-    "eslint-config-airbnb": "^16.1.0",
-    "eslint-loader": "^1.9.0",
-    "eslint-plugin-import": "^2.8.0",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-import": "^2.13.0",
     "node-sass-middleware": "^0.11.0",
-    "nodemon": "^1.14.12",
-    "prettier-eslint": "^8.8.1"
+    "nodemon": "^1.17.5",
+    "prettier-eslint": "^8.8.2"
   },
   "license": "MIT",
-  "keywords": ["node", "glitch", "express"]
+  "keywords": [
+    "node",
+    "glitch",
+    "express",
+    "pug",
+    "mongoose",
+    "mongodb"
+  ]
 }
