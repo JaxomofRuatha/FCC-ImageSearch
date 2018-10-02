@@ -2,11 +2,10 @@ const express = require('express');
 const path = require('path');
 const mongoose = require('mongoose');
 const sassMiddleware = require('node-sass-middleware');
-
-const env = require('../../config/env');
+require('dotenv').config({ path: path.join(__dirname, '..', '..', 'config/.env') });
 
 mongoose.Promise = global.Promise;
-mongoose.connect(env.MONGO_URI, { useNewUrlParser: true });
+mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true });
 
 const index = require('./routes');
 
