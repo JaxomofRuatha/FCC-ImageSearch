@@ -1,12 +1,8 @@
-//Code for submit button
+/* global document window */
 
 document.addEventListener('DOMContentLoaded', () => {
-  document.querySelector('#query-form').addEventListener('submit', e => {
+  document.getElementById('query-form').addEventListener('submit', (e) => {
     e.preventDefault();
-    window.location.href =
-      location.href +
-      'search?q=' +
-      document.querySelector('#query-input').value +
-      '&offset=1';
+    window.location.href = `${window.location.href}search?q=${document.getElementById('query-input').value}&offset=1`;
   });
 });
