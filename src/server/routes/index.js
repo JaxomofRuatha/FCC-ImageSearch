@@ -3,7 +3,6 @@ const express = require('express');
 const router = express.Router();
 
 const apiSkeleton = require('../../utils/api-helpers');
-const env = require('../../../config/env');
 const QueryRecord = require('../../db/models/QueryRecord');
 
 router.get('/', (req, res) => {
@@ -20,9 +19,7 @@ router.get('/search', (req, res) => {
   }
 
   // Set up Pixabay URL with a default offset of 1
-  const url = `https://pixabay.com/api/?key=${
-    env.PIXABAY_API_KEY
-  }&q=${query}&page=${page || 1}`;
+  const url = `https://pixabay.com/api/?key=${process.env.PIXABAY_API_KEY}&q=${query}&page=${page || 1}`;
 
   // URL, Snippet, Thumbnail, Context
   apiSkeleton(url, { method: 'GET' })
